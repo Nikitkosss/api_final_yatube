@@ -39,3 +39,31 @@ python3 manage.py runserver
 При отправке запроса передавайте токен в заголовке Authorization: Bearer <токен>
 
 Слово Bearer здесь заменяет слово Token и означает, что за ним следует сам токен.
+
+## Пример запроса POST
+
+{
+  "text": "string",
+  "image": "string",
+  "group": 0
+}
+
+## Пример запроса PUT
+
+{
+"text": "string",
+"image": "string",
+"group": 0
+}
+
+## Пример запроса PUTCH
+
+{
+"text": "string",
+"image": "string",
+"group": 0
+}
+
+# Об авторе
+
+Автора можно найти в телеграм @nikitkosss
